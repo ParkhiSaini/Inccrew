@@ -1,0 +1,14 @@
+.dropdown-content {
+    top: 65px !important;
+  }
+  .sidenav {
+    padding-top: 18px;
+    min-height: 500px;
+    overflow-y: auto;
+  }
+  .logo {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%)
+  }
