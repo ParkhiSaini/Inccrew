@@ -9,8 +9,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "build": "ng build",
-    "heroku-postbuild": "ng build --prod"
+    "build": "webpack"
+    
   },
   "author": "",
   "license": "MIT",
